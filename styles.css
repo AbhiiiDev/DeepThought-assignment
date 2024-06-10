@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   padding-left: 50px ;
+   padding-right: 50px ;
+}
+
+
+header {
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #fff;
+  
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+
+.logo-image {
+    height: 49px;
+    width: 49px;
+}
+ .thought {
+color: blue;
+}
+
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon,
+.notifications {
+    margin-left: 15px;
+}
+
+.sidebar {
+    width: 50px;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 20px;
+    font-size: 18px;
+}
+
+main {
+
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.submit-task {
+    width: 121px;
+    height: 36px;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.video-container,
+.threadbuild,.structure,.method {
+    width: 480px;
+    height: 580px;
+
+}
+
+.content-section {
+    padding: 15px;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 480px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desc {
+    font-weight: 800;
+}
+.video-frame {
+    margin-top: 10px;
+    height: 291px;
+    width: 480px;
+}
+
+
+.threadbuild h4 {
+    margin-top: 20px;
+}
+
+.thread textarea,
+.summary textarea {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.threadbuild button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.notice-board {
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
